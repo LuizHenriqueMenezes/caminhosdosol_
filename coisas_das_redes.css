@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            margin: 0; padding: 0;
+            box-sizing: border-box; font-family: 'Poppins', sans-serif;
+        }
+
+        .coisa_das_redes{
+            vertical-align: sub;
+            margin-top: 10%;
+            width: 150px; height: 55px;
+            background: white; border-radius: 10px;
+            cursor: pointer; position: relative;
+            display: flex; justify-content: center;
+            align-items: center;
+        }
+
+        .coisa_das_redes a{
+            margin: 5px; color: #1c1c1c;
+        }
+
+        .coisa_das_redes a:hover{
+            color: #3683ff; text-shadow: 0 0 20px #3683ff9f; 
+        }
+
+        .top-coisasRedes{
+            position: absolute; background: #0d0d0d;
+            top: -1%; width: 102%; height: 71%;
+            border-radius: 10px 10px 0 0; display: flex;
+            justify-content: center;
+            align-items: center; transition: all .4s;
+            text-shadow: 0 0 20px #3683ff9f;
+        }
+
+        .top-coisasRedes p{ transition: all .4s; }
+
+        .bottom_coisasRedes{
+            position: absolute; background: #0d0d0d;
+            bottom: -1%; width: 102%;
+            height: 31%; border-radius: 0 0 10px 10px;
+            transition: all .4s;
+        }
+
+        .bottom_coisasRedes ::before{
+            content: ''; position: absolute;
+            top: 0; left: 50%;
+            transform: translate(-50%); width: 60%;
+            height: 2px; background: #ffffff;
+            transition: all 0.2s;
+        }
+
+        .coisa_das_redes:hover .bottom_coisasRedes ::before{
+            transform: translate(-50%, 380%); background: #3683ff;
+            box-shadow: 0 0 20px #3683ff9f;
+        }
+        
+        .coisa_das_redes:hover .top-coisasRedes{ transform: translateY(-80%); } 
+        .coisa_das_redes:hover .top-coisasRedes p{
+            color: #3683ff; text-shadow: 0 0 20px #3683ff;
+        }
+
+        .coisa_das_redes:hover .bottom_coisasRedes{ transform: translateY(38%);}

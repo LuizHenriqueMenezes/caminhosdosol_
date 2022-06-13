@@ -1,0 +1,10 @@
+.containerSecao{
+    display: flex;
+    margin: 14%;
+    
+  }
+
+  #imagemAnimada:hover{
+    padding: 15px;
+    transition:padding 0.5s;
+  }

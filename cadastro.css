@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+  }
+  .PesquisaBarra {
+    
+    margin-top: .1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center 0;
+    font-size: 10px;
+    width: 40%;
+    margin-left: 14%;
+    border-radius: 12px;
+    padding: 1vh;
+    border: 0.5px solid gray;
+  }
+  
+  #fixo {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    TOP: 0;
+  }
+  .textoBarra{
+    top: 8%;
+    position: absolute;
+    display: flex;
+    left: 7%;
+  }
+
+  #bemTextoMesmo{
+    font-size: 85%;
+  }
+
+  #imagemBarra{
+    top: 10%;
+    position: absolute;
+    width: 4.9%;
+    bottom: 15%;
+    left: 2%;
+    z-index: 100;
+  }
+
+  .navbar-nav{
+    font-size: 100%;
+
+  }
+
+  #carrinhoBarra{
+  
+
+  }
+  
+  .menu {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    position: fixed;
+    z-index: 2;
+    padding-top: .4%;
+    background-color: white;
+    opacity: 99%;
+  
+  }
+  
+  .menu ul {
+    display: flex;
+    width: 100%;
+    padding: .5% 5% 0 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    opacity: 99%; 
+  }
+  
+  .menu li {
+    margin: 0 4.5% 0 3%;
+    padding: 2px;
+    font-size: 14.4px;
+  }
+  
+  .menu a {
+    color: rgb(3, 5, 7);
+    text-decoration: none;
+  }
+  
