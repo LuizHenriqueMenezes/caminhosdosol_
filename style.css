@@ -133,20 +133,6 @@
     margin-bottom: 10%;
   }
   
-
-  #titulopg {
-    position: absolute;
-    width: 40%;
-    left: 30%;
-    top: 20%;
-    font-weight: 400;
-    font-size: 50%;
-    line-height: 50%;
-    text-align: center;
-  
-    color: #000000;
-  }
-  
   #devolucao {
     position: absolute;
     width: 85%;
