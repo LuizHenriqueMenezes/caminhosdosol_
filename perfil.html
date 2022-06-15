@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="coisas_das_redes.css">
+    <link rel="stylesheet" href="css/barra.css">
+    <link rel="stylesheet" href="css/titulopg.css">
 
     <!--link responsividade-->
     <link rel="stylesheet" href="(min-width: 1336px) and (max-width: 1440px)" href="style.css"/>
@@ -21,59 +23,30 @@
 </head>
 
 <body>
-<style></style>
-    <nav id="fixo" style="background-color: #F29325;"
-        class="navbar navbar-expand-lg navbar-dark border-bottom shadow-sm mb-3">
-        <div class="container">
-            <a class="navbar-brand" href="">
-                <img id="imagemBarra" src="www.caminhosdosol.com/LogoLoja.png" alt="">
-                <div class="textoBarra">
-                    <strong id="bemTextoMesmo">Caminhos do Sol</strong></a>
-                </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-collapse">
-                <span class="navbar-toggle-icon"></span>
-            </button>
-            <input type="text" class="PesquisaBarra">
-            <div class="align-self-end">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="index.html">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="trocaDevolucao.html">Troca ou devolução</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="entrarcadastro.html">Entrar ou cadastrar-se</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="favoritadosAba.html"><img
-                                src="https://www.realestatesp.com.br/theme/site/assets/img/favorito.png"
-                                style="width: 25px; cursor: pointer; "></a>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white">
-                            <img src="www.caminhosdosol.com/carrinho.png" style="width: 35px; cursor: pointer;">
-                        </a>
-                    </li>
-                </ul>
+    <header>
+        <div class="barra">
+            <div class="logo">
+                <a href="index.html"><img src="www.caminhosdosol.com/LogoLoja.png" alt="logo da loja"></a>
             </div>
+            <div class="textoBarra">
+                <a href="index.html" style="text-decoration: none; color: white;">
+                    <strong id="bemTextoMesmo">Caminhos do Sol</strong></a>
+                </a>
+            </div>
+            <div class="pesquisa">
+                <input type="text" name="search" id="search" placeholder="Faça sua busca" required>
+
+            </div>
+            <nav class="barra-items">
+
+                <a href="trocaDevolucao.html"><img class="troca" src="www.caminhosdosol.com/troquinha.png"></a>
+                <a href=""><img class="vrumm" src="www.caminhosdosol.com/carrinho.png"></a>
+                <a href="favoritadosAba.html"><img
+                        src="https://www.realestatesp.com.br/theme/site/assets/img/favorito.png"></a>
+                <a href="perfil.html"><img src="www.caminhosdosol.com/user.png"></a>
+            </nav>
         </div>
-    </nav>
-    <main>
-        <hr id="hrMenu">
-        <div class="menu">
-            <ul>
-                <li><a href="secaoMasculina.html">Masculino</a></li>
-                <li><a href="secaoFeminino.html">Feminino</a></li>
-                <li><a href="secaoInfantil.html">Infantil</a></li>
-                <li><a href="secaoBrinquedos.html">Brinquedos</a></li>
-                <li><a href="secaoArtigos.html">Artigos de Praia</a></li>
-                <li><a href="secaoChinelos.html">Chinelos</a></li>
-            </ul>
-        </div>
-        <hr>
-    </main>
+    </header>
     
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -86,8 +59,8 @@
         new window.VLibras.Widget('https://vlibras.gov.br/app');
       </script>
 
-    <div id="titulopg">
-        <p class="h3 text-center">Sua conta</p>
+    <div>
+        <p class="titulopg">Sua conta</p>
     </div>
 
     <section>
