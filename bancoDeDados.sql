@@ -13,7 +13,7 @@ create table usuario
 
 create table funcionario
 (
-    cd_funcionario auto_increment primary key,
+    cd_funcionario int auto_increment primary key,
     nm_funcionario varchar(15),
     nr_telefone_funcionario varchar(12)
 );
