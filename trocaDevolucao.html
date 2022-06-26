@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/barra.css">
     <link rel="stylesheet" href="css/titulopg.css">
     <link rel="stylesheet" href="css/devolucao.css">
+    <link rel="stylesheet" href="css/abrir_botao.css">
     <link rel="stylesheet" href="(min-width: 1336px) and (max-width: 1440px)" href="style.css" />
     <link rel="stylesheet" media="(min-width: 1441px) and (max-width: 1780px)" href="style.css" />
 
@@ -69,6 +70,7 @@
             <label for="exampleFormControlInput1" class="form-label">Email</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
+
         <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Explique o ocorrido</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -79,17 +81,16 @@
         </div>
         </div>
         <button id="botaoEnviar" type="submit" class="btn btn-primary">Enviar</button>
-        </div>
-
-        <div class="borda_alerta">
-            <img id="imagemAlerta" src="www.caminhosdosol.com/sinalDeAlerta.png" alt="sinal de alerta" title="Alerta">
-            <li>Para a troca ou devolução ser efetuadas, apenas por motivos de:</li>
-            <li>• Defeitos de fábrica;</li>
-            <li>• Problemas causados pela entrega;</li>
-            <li>• Erro no pedido.</li>
-        </div>
+        </div>     
     </form>
-
+    <div>
+        <button onclick="abrirAlerta()" id="abrir_botao" >AVISO <br> <img src="./www.caminhosdosol.com/sinalDeAlerta.png" alt=""></button>
+    </div>
 </body>
-
+<script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js "> </script> 
+<script>
+    function abrirAlerta(){
+        swal ( " Para a troca ou devolução serem efetuadas, apenas por motivos de: " , " DEFEITOS DE FÁBRICA, PROBLEMAS CAUSADOS PELA ENTREGA ou ERRO NO PEDIDO. " )  ;
+    }
+</script>
 </html>
