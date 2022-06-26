@@ -10,7 +10,7 @@
     position: fixed !important;
     width: 182px;
     left: -182px;
-    height: 77%;
+    height: 83%;
     background: #1e1e1e;
     transition: all .5s ease;
     border-bottom-right-radius: 15px;
@@ -27,6 +27,7 @@
 }
 
 .sidebar a {
+    text-decoration: none;
     display: block;
     height: 65px;
     width: 100%;
