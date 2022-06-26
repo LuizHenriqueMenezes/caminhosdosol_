@@ -49,7 +49,7 @@
 
 .sidebar a span {
     letter-spacing: 1px;
-    text-transform: uppercase';
+    text-transform: uppercase;
 }
 
 #check {
@@ -57,11 +57,11 @@
 }
 
 label #btn,
-label #cance {
+label #cancel {
     position: absolute;
     cursor: pointer;
     color: white;
-    border-radius: 5px;
+    border-radius: 18px;
     border: 1px solid #262626;
     margin: 15px 30px;
     font-size: 28px;
@@ -71,6 +71,7 @@ label #cance {
     text-align: center;
     line-height: 45px;
     transition: all .5s ease;
+    position: fixed !important;
 }
 
 label #cancel {
