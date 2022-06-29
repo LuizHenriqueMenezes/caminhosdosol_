@@ -23,26 +23,26 @@
 <body style="min-width: 372px;">
   <header>
     <div class="barra">
-        <div class="logo">
-            <a href="../index.html"><img src="../www.caminhosdosol.com/LogoLoja.png" alt="logo da loja"></a>
-        </div>
-        <div class="textoBarra">
-            <a href="../index.html" style="text-decoration: none; color: white;">
-                <strong id="bemTextoMesmo">Caminhos do Sol</strong></a>
-            </a>
-        </div>
-        <div class="pesquisa">
-            <input type="text" name="search" id="search" placeholder="Faça sua busca" required>
+      <div class="logo">
+        <a href="../index.html"><img src="../www.caminhosdosol.com/LogoLoja.png" alt="logo da loja"></a>
+      </div>
+      <div class="textoBarra">
+        <a href="../index.html" style="text-decoration: none; color: white;">
+          <strong id="bemTextoMesmo">Caminhos do Sol</strong></a>
+        </a>
+      </div>
+      <div class="pesquisa">
+        <input type="text" name="search" id="search" placeholder="Faça sua busca" required>
 
-        </div>
-        <nav class="barra-items">
-          <a href="../html/trocaDevolucao.html"><img class= "troca"src="../www.caminhosdosol.com/troquinha.png"></a>
-          <a href="../html/favoritadosAba.html"><img src="../www.caminhosdosol.com/heart.png"></a>
-          <a href="../html/perfil.html"><img src="../www.caminhosdosol.com/user.png"></a>
-          <a  href=""><img class="vrumm" src="../www.caminhosdosol.com/carrinho.png"></a>
+      </div>
+      <nav class="barra-items">
+        <a href="../html/trocaDevolucao.html"><img class="troca" src="../www.caminhosdosol.com/troquinha.png"></a>
+        <a href="../html/favoritadosAba.html"><img src="../www.caminhosdosol.com/heart.png"></a>
+        <a href="../html/perfil.html"><img src="../www.caminhosdosol.com/user.png"></a>
+        <a href=""><img class="vrumm" src="../www.caminhosdosol.com/carrinho.png"></a>
       </nav>
     </div>
-</header>
+  </header>
 
 
   <div vw class="enabled">
@@ -55,33 +55,7 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-
-<input type="checkbox" id="check">
-    <label for="check">
-        <i class="fas fa-bars" id="btn"></i>
-        <i class="fas fa-bars" id="cancel"></i>
-    </label>
-    <div class="sidebar">
-        <header>Meu Menu</header>
-        <a href="../index.html">
-            <span>PAG INICIAL</span>
-        </a>
-        <a href="secao_regatas_masc.html" class="active">
-            <span>REGATAS</span>
-        </a>
-        <a href="secao_camisasUV.html">
-            <span>CAMISAS UV</span>
-        </a>
-        <a href="secao_camisas_masc.html">
-            <span>CAMISAS</span>
-        </a>
-        <a href="#">
-            <span>CAMISETAS FUT</span>
-        </a>
-        <a href="secao_bermudas.html">
-            <span>BERMUDAS</span>
-        </a>
-    </div>
+  </div>
 
   <div>
     <p class="titulopg">Acesse sua conta</p>
@@ -131,7 +105,7 @@
         </div>
         <hr>
         <div class="align">
-          <button id="botaoCadastro" type="submit" class="btn btn-primary">Entrar</button>
+          <button id="botaoCadastro" type="submit" class="btn btn-primary">Cadastrar</button>
         </div>
     </div>
 
@@ -141,6 +115,16 @@
   </div>
 
 </body>
-
+<script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+<script>
+  function abrirConfirmação() {
+    swal({
+      title: "Good job!",
+      text: "You clicked the button!",
+      icon: "success",
+      button: "Aww yiss!",
+    });
+  }
+</script>
 
 </html>
