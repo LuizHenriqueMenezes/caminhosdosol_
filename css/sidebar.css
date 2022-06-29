@@ -72,6 +72,7 @@ label #cancel {
     line-height: 45px;
     transition: all .5s ease;
     position: fixed !important;
+    z-index: 5;
 }
 
 label #cancel {
