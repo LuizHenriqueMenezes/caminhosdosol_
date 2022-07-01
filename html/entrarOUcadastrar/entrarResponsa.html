@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styleFormulario.css">
+    <link rel="icon" href="../../www.caminhosdosol.com/LogoLoja.png">
+    <title>Entre na sua conta</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Entrar</h1>
+                    </div>
+                    <div class="login-button">
+                        <a href="../../index.html">
+                            <img src="../../www.caminhosdosol.com/LogoLoja.png" style=" width: 40%; margin-left: 50%; margin-bottom: 0;" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                    </div>
+
+                </div>
+
+
+                <div class="continue-button">
+                    <button><a href="">Continuar</a> </button>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+</body>
+<script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+<script>
+  function abrirConfirmação() {
+    swal({
+      title: "Good job!",
+      text: "You clicked the button!",
+      icon: "success",
+      button: "Aww yiss!",
+    });
+  }
+</script>
+</html>
