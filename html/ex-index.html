@@ -1,13 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
 <head>
-    <title>Menu Responsivo</title>
-    <link rel="stylesheet" href="css/menu_paraIndex.css">
-    <link rel="icon" href="www.caminhosdosol.com/LogoLoja.png">
-    <link rel="stylesheet" href="css/containerSecao.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu-res/menu_paraIndex.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="css/footer.css" />
+    <!--link responsividade-->
 
-    <!--Bootstrap-->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -18,14 +22,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-    <!---->
+    <link rel="icon" href="www.caminhosdosol.com/LogoLoja.png">
+    <title>Caminhos do Sol | o melhor para o seu verão</title>
+</head> 
 
-</head>
-
-<body>
+<body style="min-width: 372px;">
     <nav class="barrona">
         <div class="logo">
-            <a href="">
+            <a href="../index.html">
                 <img src="../../../www.caminhosdosol.com/LogoLoja.png" alt="">
             </a>
         </div>
@@ -49,9 +53,23 @@
             </li>
         </ul>
     </nav>
-
+  
+    <main>
+        <div class="menu">
+            <ul>
+                <li><a href="html/secoes/principais/secaoMasculina.html">Masculino</a></li>
+                <li><a href="html/secoes/principais/secaoFeminino.html">Feminino</a></li>
+                <li><a href="html/secoes/principais/secaoInfantil.html">Infantil</a></li>
+                <li><a href="html/secoes/principais/secaoBrinquedos.html">Brinquedos</a></li>
+                <li><a href="html/secoes/principais/secaoArtigos.html">Artigos de Praia</a></li>
+                <li><a href="html/secoes/principais/secaoChinelos.html">Chinelos</a></li>
+            </ul>
+        </div>
+    </main>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-624a5242ef2706fd"></script>
     <br>
-
+    </div>
+    </div>
     <header class="container">
         <span class="d-block p-2 bg-primary text-white"></span>
         <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -60,30 +78,37 @@
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2"></button>
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item" data-bs-interval="2500">
-                    <img src="../www.caminhosdosol.com/propagandaSungasInfantis.png" class="d-none d-md-block w-100"
+                    <img src="www.caminhosdosol.com/propagandaSungasInfantis.png" class="d-none d-md-block w-100"
                         alt="Oferta Caminhos do SOl">
-                    <img src="../www.caminhosdosol.com/propagandaSungasInfantis.png" class="d-block d-md-none  w-100"
+                    <img src="www.caminhosdosol.com/propagandaSungasInfantis.png" class="d-block d-md-none  w-100"
                         alt="Oferta Caminhos do SOl">
                 </div>
                 <div class="carousel-item active" data-bs-interval="2500">
-                    <img src="../www.caminhosdosol.com/propagandaBolaVolei.png" class="d-none d-md-block w-100"
+                    <img src="www.caminhosdosol.com/propagandaBolaVolei.png" class="d-none d-md-block w-100"
                         alt="Oferta Caminhos do SOl">
-                    <img src="../www.caminhosdosol.com/propagandaBolaVolei.png" class="d-block d-md-none  w-100"
+                    <img src="www.caminhosdosol.com/propagandaBolaVolei.png" class="d-block d-md-none  w-100"
                         alt="Oferta Caminhos do SOl">
                 </div>
                 <div class="carousel-item" data-bs-interval="2500">
-                    <img src="../www.caminhosdosol.com/propagandaCamisasUV.png" class="d-none d-md-block w-100"
+                    <img src="www.caminhosdosol.com/propagandaCamisetasTime.png" class="d-none d-md-block w-100"
                         alt="Oferta Caminhos do SOl">
-                    <img src="../www.caminhosdosol.com/propagandaCamisasUV.png" class="d-block d-md-none  w-100"
+                    <img src="www.caminhosdosol.compropagandaCamisetasTime.png" class="d-block d-md-none  w-100"
+                        alt="Oferta Caminhos do SOl">
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img src="www.caminhosdosol.com/propagandaCamisasUV.png" class="d-none d-md-block w-100"
+                        alt="Oferta Caminhos do SOl">
+                    <img src="www.caminhosdosol.com/propagandaCamisasUV.png" class="d-block d-md-none  w-100"
                         alt="../Oferta Caminhos do SOl">
                 </div>
                 <div class="carousel-item" data-bs-interval="2500">
-                    <img src="../www.caminhosdosol.com/PropagandaBiquinisCortinhas.png" class="d-none d-md-block w-100"
+                    <img src="www.caminhosdosol.com/PropagandaBiquinisCortinhas.png" class="d-none d-md-block w-100"
                         alt="Oferta Caminhos do SOl">
-                    <img src="../www.caminhosdosol.com/PropagandaBiquinisCortinhas.png" class="d-block d-md-none  w-100"
+                    <img src="www.caminhosdosol.com/PropagandaBiquinisCortinhas.png" class="d-block d-md-none  w-100"
                         alt="Oferta Caminhos do SOl">
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
@@ -96,6 +121,7 @@
                 </button>
             </div>
     </header>
+
 
     <div vw class="enabled">
         <div vw-access-button class="active"></div>
@@ -115,8 +141,8 @@
                     <a href="#" class="position-absolute end-0 p-2 text-danger">
                         <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
                     </a>
-                    <a href="../html/produtos/produto_maio_ripple.html">
-                        <img id="imagemAnimada" src="../fotosbiquinis/maio_ripple_lado.jpg" class="card-img-top " style="width: 250px; height: 340px;">
+                    <a href="html/produtos/produto_maio_ripple.html">
+                        <img id="imagemAnimada" src="fotosbiquinis/maio_ripple_lado.jpg" class="card-img-top " style="width: 250px; height: 340px;">
                     </a>
                     <div class="card-header">
                         R$154,90
@@ -137,8 +163,8 @@
                     <a href="#" class="position-absolute end-0 p-2 text-danger">
                         <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
                     </a>
-                    <a href="../html/produtos/produto_shortUV_azulesc.html">
-                        <img id="imagemAnimada" src="../shorts/UV/azul_escuro/frente.jpg" class="card-img-top"
+                    <a href="html/produtos/produto_shortUV_azulesc.html">
+                        <img id="imagemAnimada" src="shorts/UV/azul_escuro/frente.jpg" class="card-img-top"
                             style="width: 250px; height: 340px;">
                     </a>
                     <div class="card-header">
@@ -186,7 +212,7 @@
                         <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
                     </a>
                     <a href="">
-                        <img id="imagemAnimada" src="../fotosbiquinis/renda_frente.jpg" class="card-img-top "
+                        <img id="imagemAnimada" src="fotosbiquinis/renda_frente.jpg" class="card-img-top "
                             style="width: 250px; height: 340px;">
                     </a>
                     <div class="card-header">
@@ -235,7 +261,7 @@
                         <i class="bi-suit-heart" style="font-size: 24px; line-height: 24px;"></i>
                     </a>
                     <a href="">
-                        <img id="imagemAnimada" src="../macaquinhos/20220413_214358.jpg" class="card-img-top "
+                        <img id="imagemAnimada" src="macaquinhos/20220413_214358.jpg" class="card-img-top "
                             style="width: 250px; height: 340px;">
                     </a>
                     <div class="card-header">
@@ -255,7 +281,7 @@
             </div>
         </div>
     </div>
-
+    <br>
     <br>
 
     <footer class="bg-dark text-center text-white">
@@ -346,17 +372,17 @@
 
                     <ul class="list-unstyled mb-0">
                         <li>
-                            <a href="" class="text-whitee"><img src="../www.caminhosdosol.com/cartoes.png"
+                            <a href="" class="text-whitee"><img src="www.caminhosdosol.com/cartoes.png"
                                     style="width: 45px; cursor: pointer; align-items: center; "> Cartões de débito e
                                 crédito</a>
                         </li>
                         <li>
-                            <a href="" class="text-whitee"><img src="../www.caminhosdosol.com/boletoimg.png"
+                            <a href="" class="text-whitee"><img src="www.caminhosdosol.com/boletoimg.png"
                                     style="width: 45px; cursor: pointer; margin-top: 1rem; margin-bottom: 1rem; ">
                                 Boleto bancário</a>
                         </li>
                         <li>
-                            <a href="" class="text-whitee"><img src="../www.caminhosdosol.com/pix_img.png"
+                            <a href="" class="text-whitee"><img src="www.caminhosdosol.com/pix_img.png"
                                     style="width: 45px; cursor: pointer; margin-bottom: 1rem;"> via PIX</a>
                         </li>
                     </ul>
@@ -375,8 +401,6 @@
         </div>
         <!-- Copyright -->
     </footer>
-
- 
 </body>
 
 </html>

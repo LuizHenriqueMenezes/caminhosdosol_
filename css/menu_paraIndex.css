@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.barrona {
+    background-color: #F29325;
+    padding: 0 20px;
+    /* esse comando da um espaço entre os componentes */
+    justify-content: space-between;
+    /*---*/
+    align-items: center;
+}
+
+.logo img{
+    width: 25%;
+}
+
+.ulzao {
+     /*tira o style da ul*/
+     list-style: none;
+     /*---*/
+     padding: 0;
+}
+
+.lizinho {
+    /*0-> vertical 20-> horizontal*/
+    padding: 0 20px;
+}
+
+.p_barrona{
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* mudar a direção das palavras */
+.barrona,
+.ulzao {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.sandwich{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+
+/* "O hover permite a criação de diversos efeitos interessantes em uma página HTML." */
+.lizinho:hover,
+.sandwich:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sandwich:focus ~ .ulzao{
+    height: 320;
+}
+
+/* "@media funciona para você determinar um estilo CSS para cada tipo de mídia que te interessar" */
+@media(max-width: 700px){
+    .barrona, .ulzao{
+        flex-direction: column;
+    }
+
+    .ulzao{
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    .barrona{
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .sandwich{
+        display: flex;
+    }
+
+    .lizinho, .ulzao{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 20%;
+        margin: 10px;
+    }
+    
+
+}
