@@ -31,8 +31,14 @@ html{
     padding: 0 20px;
 }
 
+
 .p_barrona{
     padding-top: 25px;
+    color: #fff;
+}
+
+.azinho{
+    text-decoration: none;
     color: #fff;
 }
 
@@ -69,7 +75,7 @@ html{
 }
 
 /* "@media funciona para você determinar um estilo CSS para cada tipo de mídia que te interessar" */
-@media(max-width: 700px){
+@media(max-width: 950px){
     .barrona, .ulzao{
         flex-direction: column;
     }
@@ -98,8 +104,5 @@ html{
         margin: 10px;
     }
     
-    .p_barrona{
-      
-    }
 
 }

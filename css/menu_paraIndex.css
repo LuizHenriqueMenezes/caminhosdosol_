@@ -32,6 +32,11 @@ body {
     margin-top: 20px;
 }
 
+.azinho{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* mudar a direção das palavras */
 .barrona,
 .ulzao {
@@ -65,7 +70,7 @@ body {
 }
 
 /* "@media funciona para você determinar um estilo CSS para cada tipo de mídia que te interessar" */
-@media(max-width: 700px){
+@media(max-width: 950px){
     .barrona, .ulzao{
         flex-direction: column;
     }
